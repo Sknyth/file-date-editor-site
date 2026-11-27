@@ -1,0 +1,173 @@
+{
+  "nav": { "features": "Features", "download": "Download", "downloads": "Downloads", "how": "How it works", "faq": "FAQ", "changelog": "Changelog", "privacy": "Privacy policy", "terms": "Terms of use", "github": "GitHub", "contact": "Contact", "menu": "Open navigation", "close": "Close navigation", "language": "Choose language", "theme": "Switch color theme", "skip": "Skip to content", "copyright": "File Date Editor" },
+  "hero": {
+    "eyebrow": "DESKTOP FILE UTILITY",
+    "headline": ["Your files.", "Your timeline."],
+    "description": "Easily change file creation, modification, and access dates. A simple, powerful desktop utility.",
+    "explore": "Explore features",
+    "version": "Latest release",
+    "pending": "Release not published here yet",
+    "macReady": "macOS 14+ · Apple Silicon & Intel",
+    "crossPlatform": "Windows & macOS",
+    "crossDescription": "Easily change file creation, modification, and access dates. A simple, powerful desktop utility for Windows and macOS.",
+    "windowsPending": "Windows availability depends on published builds",
+    "trust": ["Works offline", "No account required", "Files stay on your device", "Apple Silicon & Intel"]
+  },
+  "demo": {
+    "badge": "INTERACTIVE DEMO",
+    "title": "File Date Editor",
+    "sample": "Sample file",
+    "file": "Project Brief.pdf",
+    "current": "Current timestamps",
+    "original": "Original timestamps",
+    "edit": "Edit timestamps",
+    "dates": ["Created", "Modified", "Last accessed"],
+    "random": "Random Seconds",
+    "randomHint": "Randomize the seconds on apply",
+    "apply": "Apply changes",
+    "reset": "Reset",
+    "restore": "Restore original timestamps",
+    "note": "Try it with a sample file. This demo runs in your browser.",
+    "applied": "Sample timestamps updated.",
+    "restored": "Original timestamps restored.",
+    "invalid": "Enter a date and time for each field."
+  },
+  "features": {
+    "eyebrow": "FEATURES",
+    "title": "Precision for every timestamp.",
+    "intro": "Correct dates, organize an archive, or bring a batch of files into order. File Date Editor updates system metadata while preserving file contents.",
+    "items": [
+      { "title": "Edit creation date", "description": "Set when a file appears to have been created, where the volume supports it." },
+      { "title": "Edit modification date", "description": "Correct the file system’s record of when a file was last modified." },
+      { "title": "Edit access date", "description": "Adjust when a file was last accessed, subject to the volume’s rules." },
+      { "title": "Batch processing", "description": "Apply the same dates to selected files or the entire list and review the result for each file." },
+      { "title": "Random Seconds", "description": "Choose a random second from 00–59 for each date you edit." },
+      { "title": "Restore original dates", "description": "Restore the values recorded when you added a file, or restore a change from local history." },
+      { "title": "Drag and drop", "description": "Drop files from Finder straight into the list." },
+      { "title": "Change history", "description": "Review original, requested, and verified timestamps for past edits." },
+      { "title": "Native macOS app", "description": "Built with SwiftUI for Apple Silicon and Intel." },
+      { "title": "Works offline", "description": "View and edit timestamps without a network connection." },
+      { "title": "Light and dark mode", "description": "Follow your system appearance or choose a theme." },
+      { "title": "Privacy first", "description": "The macOS app processes files on your device." }
+    ],
+    "newValue": "New timestamp",
+    "selected": "3 files selected",
+    "before": "Before",
+    "after": "After",
+    "restored": "Restored"
+  },
+  "how": {
+    "eyebrow": "WORKFLOW",
+    "title": "Three steps. One clean workflow.",
+    "intro": "Pick a file, decide which dates to change, and verify the result.",
+    "steps": [
+      { "title": "Select your files", "description": "Choose one or more files in the app, or drop them in from Finder.", "visual": "Drop files here" },
+      { "title": "Choose your new dates", "description": "Select creation, modification, or access time. Enter a date and time for each field you want to update.", "visual": "Choose timestamps" },
+      { "title": "Apply changes", "description": "Apply your edits and review which values the file system actually saved.", "visual": "Timestamps verified" }
+    ],
+    "preview": "File Date Editor for macOS",
+    "previewCaption": "The macOS editor with a sample file."
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions.",
+    "intro": "What to know about timestamp editing, compatibility, and installation.",
+    "items": [
+      { "question": "What is File Date Editor?", "answer": "It is a desktop utility that reads and edits file creation, modification, and last-access timestamps where the operating system and file system permit it. The verified native app runs on macOS 14 or later." },
+      { "question": "Does it modify file contents?", "answer": "Timestamp edits update file system attributes. The app leaves the file contents intact. The operating system may independently update its own metadata change time." },
+      { "question": "Is an internet connection required?", "answer": "The macOS app works offline for locally available files. You need a connection to download a release or to make a cloud-only file available locally." },
+      { "question": "Can I change multiple files at once?", "answer": "Yes. On macOS, you can apply dates to the selected files or the whole list. Review each file’s result because some files or dates may be restricted." },
+      { "question": "Can I restore original dates?", "answer": "The Files tab restores the snapshot captured when a file was added to the current session. If history was enabled, a history entry can restore an earlier change when the original file is still identifiable and writable." },
+      { "question": "Does it work with PDF and Word documents?", "answer": "Yes, locally available PDF and Word documents can be treated as ordinary files, subject to file permissions and volume support. The app edits their file system dates and leaves information inside the document intact." },
+      { "question": "What is the difference between file dates and internal document metadata?", "answer": "The file system records dates for a file as a whole. A PDF or Word document may also contain its own creation date, author, and other metadata inside the document. Those values are separate." },
+      { "question": "Does the application require administrator permissions?", "answer": "On macOS the app requests access through the file picker or Finder drag and drop. Routine edits to writable files use your current permissions. Protected or read-only files may be unavailable for editing." },
+      { "question": "Why are some timestamps unavailable?", "answer": "File systems vary in which timestamps they support, their precision and date range. File permissions, read-only media, and cloud placeholders can also limit edits. The app shows restrictions and reports the values read back after writing.", "source": "Microsoft · File times" },
+      { "question": "Why does Windows SmartScreen show a warning?", "answer": "SmartScreen checks the reputation of downloaded files. A new or unfamiliar installer may trigger a warning. Use the official release page, check the publisher and published SHA-256, and stop if you cannot verify the download.", "source": "Microsoft · SmartScreen" },
+      { "question": "Why does macOS Gatekeeper show a warning?", "answer": "Gatekeeper checks the developer signature and notarization status of downloaded apps. Use a signed, notarized release from the project. If macOS reports a security problem or you cannot verify the source, do not run the build.", "source": "Apple · Gatekeeper" },
+      { "question": "How do I uninstall the application?", "answer": "On macOS, quit the app and move it from Applications to the Trash. Clear change history in the app first if you want to remove stored entries. For a published Windows installer, follow its release instructions or use Installed apps. For a portable ZIP, remove the extracted files." }
+    ]
+  },
+  "download": {
+    "eyebrow": "DESKTOP DOWNLOADS",
+    "title": "Download File Date Editor.",
+    "intro": "Find a stable build for your operating system. Check the architecture and system requirements before installing.",
+    "recommended": "Detected on this device",
+    "device": "We highlight your operating system when possible. Choose the architecture that matches your device.",
+    "macDescription": "Apple Silicon, Intel, and Universal DMG builds.",
+    "windowsDescription": "x64 and ARM64. Setup installers and portable ZIPs.",
+    "selectArch": "Choose architecture",
+    "allArch": "All architectures",
+    "intel": "Intel",
+    "apple": "Apple Silicon",
+    "universal": "Universal",
+    "dmg": "DMG installer",
+    "setup": "Setup installer",
+    "zip": "Portable ZIP",
+    "unavailable": "No build is available for this selection.",
+    "minimum": "Minimum requirements",
+    "requirementsUnknown": "Not listed by the publisher",
+    "size": "File size",
+    "date": "Released",
+    "count": "Downloads on GitHub",
+    "checksum": "SHA-256 checksum",
+    "verifyTitle": "Verify your download",
+    "verifyBody": "Download from the official release and compare the SHA-256 value where published. Keep your operating system’s security checks enabled.",
+    "releasePage": "View release on GitHub"
+  },
+  "releases": {
+    "unconfigured": "Public releases have not been connected to this site yet.",
+    "empty": "No stable releases are available yet.",
+    "unavailable": "GitHub releases are temporarily unavailable. Please try again later.",
+    "rateLimited": "GitHub is temporarily limiting release requests. Please try again later.",
+    "fallback": "Showing the last known release information. Check GitHub for current availability."
+  },
+  "changelog": {
+    "eyebrow": "RELEASE HISTORY",
+    "title": "Changelog.",
+    "intro": "Follow stable releases, feature additions, improvements, and fixes.",
+    "notes": "Release notes",
+    "new": "New features",
+    "improvements": "Improvements",
+    "fixes": "Bug fixes",
+    "builds": "Available builds",
+    "noNotes": "The publisher did not include release notes.",
+    "noBuilds": "No mapped installer is listed for this release."
+  },
+  "privacy": {
+    "eyebrow": "PRIVACY & SECURITY",
+    "title": "Privacy policy.",
+    "intro": "How File Date Editor for macOS and this website handle information.",
+    "sections": [
+      { "title": "Files and timestamps", "description": "The macOS app accesses files you select in the system file picker or drop from Finder. It reads and writes system dates locally. The macOS app has no file upload or account feature." },
+      { "title": "Local settings and change history", "description": "Preferences are kept on your Mac using macOS UserDefaults. If history is enabled, the app stores paths, operation times, original, requested and verified dates, results, file identifiers, and security-scoped bookmarks in History.json within the app’s local Application Support directory. Clear history in the app to remove those records and bookmarks." },
+      { "title": "Website and interactive demo", "description": "The demonstration uses a synthetic file and keeps its values in browser memory. The website has no analytics or advertising integration. Your theme preference is stored in your browser. The hosting provider may process standard request information to deliver the site." },
+      { "title": "Downloads and updates", "description": "This site obtains public release information from GitHub when a repository is configured. Downloads open on GitHub, where GitHub’s own privacy policy applies. Check the Downloads page for updates." }
+    ],
+    "githubPrivacy": "GitHub privacy statement"
+  },
+  "terms": {
+    "eyebrow": "TERMS OF USE",
+    "title": "Terms of use.",
+    "intro": "Basic conditions for using this website and its interactive demo.",
+    "sections": [
+      { "title": "Using the site", "description": "You may use this site to learn about File Date Editor, try its browser demonstration and find official release information. Use the desktop app only with files you are authorized to modify." },
+      { "title": "Desktop software and releases", "description": "Any license or additional conditions included with the desktop software apply to that release. Download only from the official release source and review the notes, supported platforms and file verification information." },
+      { "title": "Timestamp editing", "description": "Results depend on the operating system, permissions, and file system. Keep backups where dates are important and review the app’s results after editing." },
+      { "title": "Availability and rights", "description": "Website content and release availability may change. These terms do not limit rights that applicable law gives you and that cannot be excluded." }
+    ]
+  },
+  "footer": { "description": "A desktop utility for file timestamps.", "product": "Product", "resources": "Resources", "cta": "Put your files in order.", "ctaDescription": "Find the right release for your desktop." },
+  "seo": {
+    "homeTitle": "File Date Editor — Change File Creation and Modification Dates",
+    "homeDescription": "View and change file creation, modification and access timestamps on macOS. Try the interactive file timestamp editor and find official downloads.",
+    "downloadTitle": "Download File Date Editor",
+    "downloadDescription": "Find official File Date Editor downloads, architecture options, system requirements, and SHA-256 checksums when published.",
+    "changelogTitle": "File Date Editor Changelog",
+    "changelogDescription": "Read stable File Date Editor release notes, new features, improvements, and fixes.",
+    "privacyTitle": "File Date Editor Privacy Policy",
+    "privacyDescription": "Learn how File Date Editor for macOS and its website handle files, local history, and downloads.",
+    "termsTitle": "File Date Editor Terms of Use",
+    "termsDescription": "Basic terms for using the File Date Editor website and interactive demo.",
+    "notFound": "Page not found"
+  }
+}

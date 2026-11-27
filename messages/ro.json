@@ -1,0 +1,173 @@
+{
+  "nav": { "features": "Funcții", "download": "Descarcă", "downloads": "Descărcări", "how": "Cum funcționează", "faq": "Întrebări", "changelog": "Istoric versiuni", "privacy": "Confidențialitate", "terms": "Condiții de utilizare", "github": "GitHub", "contact": "Contact", "menu": "Deschide meniul", "close": "Închide meniul", "language": "Alege limba", "theme": "Schimbă tema", "skip": "Mergi la conținut", "copyright": "File Date Editor" },
+  "hero": {
+    "eyebrow": "UTILITAR PENTRU FIȘIERE",
+    "headline": ["Fișierele tale.", "Datele tale."],
+    "description": "Schimbă ușor datele de creare, modificare și ultim acces cu un utilitar desktop simplu și puternic.",
+    "explore": "Explorează funcțiile",
+    "version": "Ultima versiune",
+    "pending": "Versiunea nu este încă publicată aici",
+    "macReady": "macOS 14+ · Apple Silicon și Intel",
+    "crossPlatform": "Windows și macOS",
+    "crossDescription": "Schimbă ușor datele de creare, modificare și ultim acces cu un utilitar desktop pentru Windows și macOS.",
+    "windowsPending": "Disponibilitatea pentru Windows depinde de pachetele publicate",
+    "trust": ["Funcționează offline", "Fără cont", "Fișierele rămân pe dispozitiv", "Apple Silicon și Intel"]
+  },
+  "demo": {
+    "badge": "DEMONSTRAȚIE INTERACTIVĂ",
+    "title": "File Date Editor",
+    "sample": "Fișier exemplu",
+    "file": "Rezumat proiect.pdf",
+    "current": "Date curente",
+    "original": "Date inițiale",
+    "edit": "Editează datele",
+    "dates": ["Creat", "Modificat", "Ultimul acces"],
+    "random": "Secunde aleatorii",
+    "randomHint": "Alege secundele aleatoriu la aplicare",
+    "apply": "Aplică modificările",
+    "reset": "Resetează",
+    "restore": "Restabilește datele inițiale",
+    "note": "Încearcă un fișier exemplu. Demonstrația rulează în browser.",
+    "applied": "Datele exemplului au fost actualizate.",
+    "restored": "Datele inițiale au fost restabilite.",
+    "invalid": "Introdu data și ora în fiecare câmp."
+  },
+  "features": {
+    "eyebrow": "FUNCȚII",
+    "title": "Precizie pentru fiecare dată.",
+    "intro": "Corectează datele, organizează o arhivă sau ordonează mai multe fișiere odată. File Date Editor actualizează metadatele de sistem și păstrează conținutul fișierelor.",
+    "items": [
+      { "title": "Data creării", "description": "Setează data la care apare ca fiind creat fișierul, dacă volumul permite." },
+      { "title": "Data modificării", "description": "Corectează data la care a fost modificat ultima oară un fișier." },
+      { "title": "Data accesării", "description": "Actualizează data ultimului acces, conform regulilor volumului." },
+      { "title": "Procesare în lot", "description": "Aplică aceleași date fișierelor selectate sau întregii liste și verifică fiecare rezultat." },
+      { "title": "Secunde aleatorii", "description": "Alege aleatoriu o secundă între 00 și 59 pentru fiecare câmp editat." },
+      { "title": "Restabilirea datelor inițiale", "description": "Revino la valorile păstrate la adăugarea fișierului sau la cele din istoricul local." },
+      { "title": "Tragere și plasare", "description": "Trage fișiere din Finder direct în listă." },
+      { "title": "Istoric de modificări", "description": "Consultă datele inițiale, cerute și verificate pentru modificările anterioare." },
+      { "title": "Aplicație nativă macOS", "description": "Creată cu SwiftUI pentru Apple Silicon și Intel." },
+      { "title": "Funcționare offline", "description": "Vizualizează și editează datele fără conexiune la internet." },
+      { "title": "Teme deschisă și întunecată", "description": "Alege o temă sau folosește aspectul sistemului." },
+      { "title": "Confidențialitate", "description": "Aplicația pentru macOS prelucrează fișierele pe dispozitiv." }
+    ],
+    "newValue": "Dată nouă",
+    "selected": "3 fișiere selectate",
+    "before": "Înainte",
+    "after": "După",
+    "restored": "Restabilit"
+  },
+  "how": {
+    "eyebrow": "MOD DE LUCRU",
+    "title": "Trei pași simpli.",
+    "intro": "Alege fișierul și datele de modificat, apoi verifică rezultatul.",
+    "steps": [
+      { "title": "Selectează fișierele", "description": "Alege unul sau mai multe fișiere în aplicație sau trage-le din Finder.", "visual": "Trage fișierele aici" },
+      { "title": "Alege datele noi", "description": "Selectează data creării, modificării sau accesării. Introdu data și ora pentru fiecare câmp ales.", "visual": "Alege datele" },
+      { "title": "Aplică modificările", "description": "Aplică editările și vezi ce valori a salvat sistemul de fișiere.", "visual": "Date verificate" }
+    ],
+    "preview": "File Date Editor pentru macOS",
+    "previewCaption": "Editorul pentru macOS cu un fișier exemplu."
+  },
+  "faq": {
+    "eyebrow": "ÎNTREBĂRI FRECVENTE",
+    "title": "Întrebări frecvente.",
+    "intro": "Ce trebuie să știi despre datele fișierelor, compatibilitate și instalare.",
+    "items": [
+      { "question": "Ce este File Date Editor?", "answer": "Este un utilitar desktop pentru citirea și editarea datelor de creare, modificare și ultim acces, acolo unde sistemul de operare și sistemul de fișiere permit. Aplicația nativă verificată rulează pe macOS 14 sau mai nou." },
+      { "question": "Modifică conținutul fișierelor?", "answer": "Editarea datelor actualizează atributele sistemului de fișiere. Conținutul fișierului rămâne intact. Sistemul de operare își poate actualiza separat data de modificare a metadatelor." },
+      { "question": "Este necesară o conexiune la internet?", "answer": "Aplicația pentru macOS funcționează offline cu fișiere disponibile local. Ai nevoie de internet pentru a descărca o versiune sau a salva local un fișier disponibil doar în cloud." },
+      { "question": "Pot schimba mai multe fișiere odată?", "answer": "Da. Pe macOS poți aplica datele fișierelor selectate sau întregii liste. Verifică fiecare rezultat, deoarece unele fișiere sau date pot avea restricții." },
+      { "question": "Pot restabili datele inițiale?", "answer": "Fila Fișiere restabilește valorile păstrate la adăugarea fișierului în sesiunea curentă. Dacă istoricul a fost activat, o intrare poate restabili o modificare anterioară, cât timp fișierul original poate fi identificat și scris." },
+      { "question": "Funcționează cu documente PDF și Word?", "answer": "Da, documentele PDF și Word disponibile local sunt tratate ca fișiere obișnuite, în funcție de permisiuni și de volumul folosit. Editorul modifică datele sistemului de fișiere și păstrează informațiile din document." },
+      { "question": "Care este diferența dintre datele fișierului și metadatele documentului?", "answer": "Sistemul de fișiere înregistrează date pentru fișier ca întreg. Un document Word sau PDF poate include separat o dată a creării, un autor și alte informații în interiorul documentului." },
+      { "question": "Sunt necesare permisiuni de administrator?", "answer": "Pe macOS, aplicația solicită acces prin selectorul de fișiere sau prin tragere din Finder. Editarea obișnuită folosește permisiunile curente. Fișierele protejate sau doar în citire pot fi indisponibile pentru editare." },
+      { "question": "De ce sunt indisponibile unele date?", "answer": "Sistemele de fișiere diferă în privința datelor acceptate, preciziei și intervalelor. Permisiunile, volumele doar în citire și fișierele doar în cloud pot împiedica editarea. Aplicația afișează restricțiile și recitește valorile după salvare.", "source": "Microsoft · Datele fișierelor" },
+      { "question": "De ce afișează Windows SmartScreen un avertisment?", "answer": "SmartScreen verifică reputația fișierelor descărcate. Un program de instalare nou sau puțin cunoscut poate declanșa un avertisment. Verifică sursa oficială, editorul și SHA-256 publicat. Oprește-te dacă nu poți verifica fișierul.", "source": "Microsoft · SmartScreen" },
+      { "question": "De ce afișează Gatekeeper un avertisment pe macOS?", "answer": "Gatekeeper verifică semnătura dezvoltatorului și notarizarea aplicațiilor descărcate. Folosește o versiune semnată și notarizată de pe pagina proiectului. Dacă macOS raportează o problemă de securitate sau sursa nu poate fi verificată, nu rula aplicația.", "source": "Apple · Gatekeeper" },
+      { "question": "Cum dezinstalez aplicația?", "answer": "Pe macOS, închide aplicația și mut-o din Aplicații în Coș. Șterge mai întâi istoricul din aplicație dacă dorești să elimini intrările păstrate. Pe Windows, urmează instrucțiunile versiunii sau folosește lista de aplicații instalate. Pentru un ZIP portabil, șterge fișierele extrase." }
+    ]
+  },
+  "download": {
+    "eyebrow": "DESCĂRCĂRI DESKTOP",
+    "title": "Descarcă File Date Editor.",
+    "intro": "Găsește o versiune stabilă pentru sistemul tău. Verifică arhitectura și cerințele înainte de instalare.",
+    "recommended": "Detectat pe acest dispozitiv",
+    "device": "Evidențiem sistemul de operare când este posibil. Alege arhitectura potrivită dispozitivului tău.",
+    "macDescription": "Imagini DMG pentru Apple Silicon și Intel, inclusiv versiuni universale.",
+    "windowsDescription": "x64 și ARM64. Programe de instalare și arhive ZIP portabile.",
+    "selectArch": "Alege arhitectura",
+    "allArch": "Toate arhitecturile",
+    "intel": "Intel",
+    "apple": "Apple Silicon",
+    "universal": "Universal",
+    "dmg": "Instalator DMG",
+    "setup": "Program de instalare",
+    "zip": "ZIP portabil",
+    "unavailable": "Nu este disponibil niciun pachet pentru această selecție.",
+    "minimum": "Cerințe minime",
+    "requirementsUnknown": "Nespecificate de editor",
+    "size": "Dimensiune",
+    "date": "Data publicării",
+    "count": "Descărcări pe GitHub",
+    "checksum": "Sumă de control SHA-256",
+    "verifyTitle": "Verifică descărcarea",
+    "verifyBody": "Descarcă de la sursa oficială și compară valoarea SHA-256 când este publicată. Păstrează active verificările de securitate ale sistemului de operare.",
+    "releasePage": "Vezi versiunea pe GitHub"
+  },
+  "releases": {
+    "unconfigured": "Versiunile publice nu au fost încă conectate la site.",
+    "empty": "Încă nu există versiuni stabile.",
+    "unavailable": "Versiunile GitHub sunt temporar indisponibile. Încearcă din nou mai târziu.",
+    "rateLimited": "GitHub limitează temporar solicitările pentru versiuni. Încearcă din nou mai târziu.",
+    "fallback": "Sunt afișate ultimele informații cunoscute. Verifică disponibilitatea actuală pe GitHub."
+  },
+  "changelog": {
+    "eyebrow": "ISTORICUL VERSIUNILOR",
+    "title": "Istoric versiuni.",
+    "intro": "Urmărește versiunile stabile, funcțiile noi, îmbunătățirile și remedierile.",
+    "notes": "Note de lansare",
+    "new": "Funcții noi",
+    "improvements": "Îmbunătățiri",
+    "fixes": "Remedieri",
+    "builds": "Pachete disponibile",
+    "noNotes": "Editorul nu a inclus note pentru această versiune.",
+    "noBuilds": "Pentru această versiune nu este listat un instalator cunoscut."
+  },
+  "privacy": {
+    "eyebrow": "CONFIDENȚIALITATE ȘI SECURITATE",
+    "title": "Politica de confidențialitate.",
+    "intro": "Cum gestionează informațiile File Date Editor pentru macOS și acest site.",
+    "sections": [
+      { "title": "Fișiere și date", "description": "Aplicația pentru macOS accesează fișierele selectate în dialogul de sistem sau trase din Finder. Citește și scrie local datele de sistem. Aplicația nu încarcă fișiere și nu are funcție de cont." },
+      { "title": "Setări și istoric local", "description": "Preferințele se stochează pe Mac cu UserDefaults. Dacă istoricul este activat, aplicația păstrează căile, orele operațiilor, datele inițiale, cerute și verificate, rezultatele, identificatorii și marcajele de acces în History.json, în directorul local Application Support al aplicației. Șterge istoricul din aplicație pentru a elimina aceste date." },
+      { "title": "Site-ul și demonstrația interactivă", "description": "Demonstrația folosește un fișier fictiv și păstrează valorile în memoria browserului. Site-ul nu include instrumente de analiză sau publicitate. Preferința de temă se păstrează în browser. Furnizorul de găzduire poate prelucra datele obișnuite ale solicitărilor pentru a livra site-ul." },
+      { "title": "Descărcări și actualizări", "description": "Site-ul preia informații publice despre versiuni de pe GitHub dacă există un depozit configurat. Descărcările se deschid pe GitHub, unde se aplică politica acestui serviciu. Pentru actualizări, consultă pagina Descărcări." }
+    ],
+    "githubPrivacy": "Politica de confidențialitate GitHub"
+  },
+  "terms": {
+    "eyebrow": "CONDIȚII DE UTILIZARE",
+    "title": "Condiții de utilizare.",
+    "intro": "Condițiile de bază pentru folosirea site-ului și a demonstrației interactive.",
+    "sections": [
+      { "title": "Utilizarea site-ului", "description": "Poți folosi site-ul pentru a afla despre File Date Editor, a încerca demonstrația și a găsi informații despre versiunile oficiale. Folosește aplicația desktop doar pentru fișierele pe care ai dreptul să le modifici." },
+      { "title": "Aplicația desktop și versiunile", "description": "Licența sau condițiile suplimentare incluse în program se aplică versiunii respective. Descarcă doar de la sursa oficială și verifică notele, platformele acceptate și integritatea pachetului." },
+      { "title": "Editarea datelor", "description": "Rezultatele depind de sistemul de operare, permisiuni și sistemul de fișiere. Păstrează copii de rezervă dacă datele sunt importante și verifică rezultatele după editare." },
+      { "title": "Disponibilitate și drepturi", "description": "Conținutul site-ului și disponibilitatea versiunilor se pot schimba. Aceste condiții păstrează drepturile acordate prin legea aplicabilă la care nu se poate renunța." }
+    ]
+  },
+  "footer": { "description": "Un utilitar desktop pentru datele fișierelor.", "product": "Produs", "resources": "Resurse", "cta": "Pune ordine în fișiere.", "ctaDescription": "Găsește versiunea potrivită pentru computerul tău." },
+  "seo": {
+    "homeTitle": "File Date Editor — schimbă data creării și modificării fișierelor",
+    "homeDescription": "Vizualizează și modifică datele creării, modificării și accesării fișierelor pe macOS. Încearcă editorul online și găsește descărcările oficiale.",
+    "downloadTitle": "Descarcă File Date Editor",
+    "downloadDescription": "Descărcări oficiale File Date Editor, arhitecturi, cerințe de sistem și sume de control SHA-256 publicate.",
+    "changelogTitle": "Istoricul versiunilor File Date Editor",
+    "changelogDescription": "Citește notele versiunilor stabile File Date Editor, funcțiile noi, îmbunătățirile și remedierile.",
+    "privacyTitle": "Politica de confidențialitate File Date Editor",
+    "privacyDescription": "Află cum File Date Editor pentru macOS și site-ul gestionează fișierele, istoricul local și descărcările.",
+    "termsTitle": "Condițiile de utilizare File Date Editor",
+    "termsDescription": "Condiții de bază pentru utilizarea site-ului File Date Editor și a demonstrației interactive.",
+    "notFound": "Pagina nu a fost găsită"
+  }
+}
